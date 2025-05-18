@@ -1,0 +1,47 @@
+<html>
+    <link rel="stylesheet" href="style.css">
+<head> 
+
+    <title>Registration Form</title>
+    <style>
+      .error {
+        color: red;
+        font-size: 12px;
+      }
+    </style>
+  </head>
+  <body style="background-color: antiquewhite;">
+    <img src="Screenshot.png"  style="display: block; margin: 0 auto;" height="25%" >
+          
+    <h1 style="text-align: center;">Registration Form</h1>
+  
+    <form id="registrationForm">
+      <label for="name">Your Name:</label><br>
+      <input type="text" id="name" name="name" placeholder="Your Name">
+      <div id="nameError" class="error"></div><br>
+  
+      <label for="email">Enter Your Email:</label><br>
+      <input type="text" id="email" name="email" placeholder="Enter your email">
+      <div id="emailError" class="error"></div><br>
+  
+      <label for="password">Create Password:</label><br>
+      <input type="password" id="password" name="password" placeholder="Password">
+      <div id="passwordError" class="error"></div><br>
+  
+      <label>Course selection:</label><br>
+      <select id="course">
+        <option value="">Select a course</option>
+        <option>Programming</option>
+        <option>Calculus</option>
+        <option>Circuit Analysis</option>
+        <option>Web Engineering</option>
+      </select>
+      <div id="courseError" class="error"></div><br>
+  
+      <button class="leftbutton" type="button" onclick="validateForm()">Submit</button>
+      <button class="rightbutton" type="reset">Reset</button>
+    </form>
+  
+    <script src="script.js"></script>
+  </body>
+  </html>

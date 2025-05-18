@@ -1,0 +1,42 @@
+form {
+position: relative;
+    margin: 0 auto;
+ width: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    background: white; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.leftbutton {
+ 
+    width: 70px;
+    height: 30px;
+  background:rgb(246, 131, 150)  
+
+  }
+
+  .rightbutton {
+
+    width: 70px;
+    height: 30px;
+  background:rgb(246, 131, 150)  
+
+
+  }
+  
+  input {
+    width: 290px;
+  height: 30px;
+  border-radius: 5px;
+  border-width: 1;
+  border-color: rgb(227, 152, 142);
+
+}
+select {
+    width: 290px;
+    height: 30px;
+    border-radius: 5px;
+    border-color:rgb(227, 152, 142);
+}
+
+
